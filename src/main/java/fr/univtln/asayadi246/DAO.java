@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.*;
 
 public class DAO {
-    private String url = "jdbc:mysql://mysql-server2:3306/sakila";
+    private String url = "jdbc:mysql://mysql-server:3306/sakila";
     private String user = "test";
     private String pwd = "1234";
     public List<Actor> getAll() {
